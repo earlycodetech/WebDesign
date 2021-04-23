@@ -1,0 +1,22 @@
+body{
+    background: #292828;
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.php{
+    background: pink;
+    text-align: center;
+    padding: 30px 0 15px 0;
+    border-radius: 10px;
+    width: 50%;
+}
+.jquery{
+    background: #F9D870;
+    text-align: center;
+    padding: 30px 0 15px 0;
+    border-radius: 10px;
+    width: 50%;
+}
