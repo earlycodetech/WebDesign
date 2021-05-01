@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Zen+Dots&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-nav{
+    display: flex;
+    background-color: #d8e3e7;
+}
+
+.primary-nav > ul{
+    margin: 0;
+    padding: 16px 16px 16px 32px;
+    list-style-type: none;
+}
+
+.logo{
+    padding: 6px 16px 8px 32px;
+}
+.logo a{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    text-decoration: none;
+    color: #126e82;
+    font-family: 'Zen Dots', cursive;
+}
+
+.primary-nav ul li{
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.primary-nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: .15em;
+    color: #126e82;
+}
+
+.primary-nav ul li a:hover{
+    color: #51c4d3;
+    text-decoration: underline;
+}
+/* ============================ */
+
+.hero{
+    padding: 160px 0;
+    text-align: center;
+}
+
+.hero a{
+    padding: 18px 32px;
+    background-color: #132c33;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
