@@ -9,6 +9,7 @@ body{
 .primary-nav{
     display: flex;
     background-color: #d8e3e7;
+    box-shadow: 0 .2em .2em gray;
 }
 
 .primary-nav > ul{
@@ -61,3 +62,84 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
+.hero a:hover{
+    box-shadow: 0 .2em .4em #903749;
+}
+.hero > h1{
+    color: #2B2E4A;
+    text-transform: uppercase;
+    letter-spacing: .7em;
+}
+.hero > p{
+    font-size: 1.2em;
+}
+
+/* ===== styles for section */
+/* ===== styles for section heading1 == begin*/
+.heading1{
+    display: flex;
+    background-color: #903749;
+    padding: 4em 3em;
+}
+.heading1 .heading1-img{
+    width: 50%;
+}
+.heading1 .heading1-text{
+    width: 50%;
+}
+.heading1 .heading1-img img{
+    width: 20em;
+}
+.heading1 .heading1-text h3{
+    color: #d8e3e7;
+    font-size: 2em;
+}
+.heading1 .heading1-text p{
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 2.5em;
+}
+.heading1 .heading1-text a{
+    color: #903749;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    background-color: #d8e3e7;
+}
+/* ===== styles for section heading1 == end*/
+
+/* ===== styles for section heading2 == begin*/
+.heading2{
+    display: flex;
+    background-color: #2b2e4a;
+    padding: 4em 3em;
+}
+.heading2 .heading2-img{
+    width: 50%;
+}
+.heading2 .heading2-text{
+    width: 50%;
+}
+.heading2 .heading2-img img{
+    width: 20em;
+    float: right;
+}
+.heading2 .heading2-text h3{
+    color: #d8e3e7;
+    font-size: 2em;
+}
+.heading2 .heading2-text p{
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 2.5em;
+}
+.heading2 .heading2-text a{
+    color: #2b2e4a;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    background-color: #d8e3e7;
+}
+/* ===== styles for section heading2 == end*/
