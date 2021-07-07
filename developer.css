@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Raleway:wght@100;300;500&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .8em 1em;
+    background: gray;
+}
+
+nav > ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.line-mix{
+    background: linear-gradient(0.25turn,rgba(51, 249, 255,0.5),rgba(255, 51, 255,0.5), rgba(255, 51, 82,0.5));
+    padding: 4px;
+}
+
+.bg{
+    background: linear-gradient(rgba(128, 128, 128, 0.877),rgba(0, 0, 0, 0.87)), 
+    url("../images/city.jpg") center;
+    min-height: 480px;
+    /* margin: -21px; */
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+}
+
+.text-container > h1{
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    text-transform: capitalize;
+    font-size: 42px;
+    line-height: 60px;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+}
+
+.text-container > p{
+    color: #5499C7 ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+.booking-cta{
+    padding: 1em 1.5em;
+    background-color: #F1C407;
+    border: 2px solid #F39C12;
+    border-radius: 3px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#booking-info{
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+p .booking-cta{
+    box-shadow: -4px 2px 10px 1px rgb(238, 109, 109);
+}
+
+.nav-items a{
+    color: #DA0037;
+    text-decoration: none;
+}
