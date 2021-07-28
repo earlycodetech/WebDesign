@@ -1,0 +1,9 @@
+.center{
+    text-align: center;
+}
+.center > img{
+    width: 160px;
+}
+p > img{
+    height: 22px;
+}
